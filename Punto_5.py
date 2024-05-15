@@ -48,7 +48,9 @@ def k_cercano(lista_k,elem_k):
 
 
 #----------------------------------- Inicio Programa ----------------------------------------------
-
+print("Ingrese el número de iteraciones del algoritmo: ")
+nIteraciones=int(input())
+print("Calculando...")
 lista_k, elem_k =K_means(data,4,100)
 
 colores=["red","green","blue","orange"]
@@ -68,3 +70,4 @@ for i in range(0,len(lista_k)):
     
 ax.legend()
 plt.show()
+print("Cálculo finalizado.")
