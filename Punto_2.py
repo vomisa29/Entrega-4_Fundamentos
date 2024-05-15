@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import math
 
 #------------------------------- Definición de funciones ---------------------------------------
 
@@ -63,5 +62,5 @@ ax.plot(X,r2,color="green",label="Polinomio de grado 2",linewidth=3)
 r3 =dar_Y_a_partir_b(b_3,X)
 ax.plot(X,r3,color="red",label="Polinomio de grado 3",linewidth=3)
 
-plt.legend()
+ax.legend()
 plt.show()
