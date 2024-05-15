@@ -68,6 +68,6 @@ for i in range(0,len(lista_k)):
         Y.append(y)
     ax.scatter(X,Y,color=colores[i],label="K " + str(i), marker=".")
     
+print("Cálculo finalizado.")  
 ax.legend()
 plt.show()
-print("Cálculo finalizado.")
